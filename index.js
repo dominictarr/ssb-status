@@ -1,3 +1,5 @@
+#! /usr/bin/env electro
+
 var render = require('./render')
 require('ssb-client')(function (err, sbot) {
   ;(function next () {
